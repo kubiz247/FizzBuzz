@@ -21,6 +21,11 @@ namespace FizzBuzz
             {
                 Console.WriteLine("NaN");
             }
+
+            Console.WriteLine(FizzBuzz(3));
+            Console.WriteLine(FizzBuzz(5));
+            Console.WriteLine(FizzBuzz(15));
+            Console.WriteLine(FizzBuzz(7));
         }
 
         static string FizzBuzz(double input)
@@ -36,6 +41,5 @@ namespace FizzBuzz
 
             return input.ToString();
         }
-
     }
 }
